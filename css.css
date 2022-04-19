@@ -1,0 +1,101 @@
+body{
+    background-color: #b9bdc4;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.center{
+	margin: auto;
+	width: 50%;
+}
+
+.avatar{
+    border-radius: 20px;
+    width: 300px;
+    box-shadow: 5px 2px 14px;
+	margin-right: 70px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+}
+
+.course ul li {
+    margin-bottom: 15px;
+}
+
+.social ul li {
+    margin-bottom: 15px;
+}
+
+table a,p{
+	color: #868986;
+}
+
+.social a,
+.social li{
+	color: #868986;
+}
+.hobby ol {
+	color: #868986;
+}
+.card {
+	padding: 15px 20px ;
+	background: red;
+	margin-bottom: 20px;
+	border-radius: 15px;
+}
+		
+		.bg-blue{
+			background: #c5c7f3;
+		}
+		.bg-yellow{
+			background: #fff9dc;
+		}
+
+		.bg-green{
+			background: #e5ffe7;
+		}
+
+		.bg-red{
+			background: #ffe5e5;
+		}
+
+a {
+	position: relative;
+	color: black;
+	cursor: pointer;
+	line-height: 1; 
+	text-decoration: none; 
+}
+a:after {
+	display: block;
+	position: absolute;
+	left: 0; 
+	width: 0;
+	height: 2px; 
+	background-color: black; 
+	content: "";
+	transition: width 0.4s ease-out; 
+}
+
+a:hover:after,
+a:focus:after {
+	width: 100%; 
+}
+
+.connect label{
+	display: block;
+	font-size: 14px;
+	color: #868986;
+}
+
+.connect input,
+.connect textarea{
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 2px solid #ccc;
+	color: black;
+	padding: 13px 0 10px;
+	font-family: inherit;
+}
